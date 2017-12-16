@@ -49,6 +49,9 @@ ul, ol, dl, figure,
  * Images
  */
 img {
+    max-width: 100%;
+}
+img.top {
     display: block;
     max-width: 200px;
     margin: auto;
@@ -78,7 +81,28 @@ ul, ol {
 }
 
 li {
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+    img, a {
+        display: inline-block;
+        vertical-align: top;
+    }
+    img {
+        width: 25%;
+    }
+    a {
+        width: 71%;
+        border-bottom: none;
+        padding-left: 2%;
+    }
+    @media (max-width: 400px) {
+        img, a {
+            width: 100%;
+        }
+        a {
+            padding-left: 0;
+            padding-top: 0.5rem;
+        }
+    }
     > ul,
     > ol {
          margin-bottom: 0;
