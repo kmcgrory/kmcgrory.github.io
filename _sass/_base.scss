@@ -21,14 +21,36 @@ body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+}
+
+header {
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    max-width: -webkit-calc(#{$content-width} * 1.3 - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} * 1.3 - (#{$spacing-unit} * 2));
+
+    .title {
+        font-size: 1.5rem;
+        display: inline-block;
+    }
+
+    .right {
+        float: right;
+
+        p {
+            display: inline-block;
+            margin-right: 2rem;
+        }
+    }
 }
 
 
@@ -51,10 +73,11 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
 }
-img.top {
-    display: block;
-    max-width: 200px;
+img.right {
+    float: right;
+    max-width: 150px;
     margin: auto;
+    margin-left: 2rem;
     vertical-align: middle;
 }
 
@@ -76,39 +99,18 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-    list-style-type: none;
-}
 
-li {
-    margin-bottom: 1.25rem;
-    img, a {
+div.selected {
+    text-align: center;
+    a.story {
         display: inline-block;
-        vertical-align: top;
-    }
-    img {
-        width: 25%;
-    }
-    a {
-        width: 71%;
+        width: 28%;
         border-bottom: none;
-        padding-left: 2%;
-    }
-    @media (max-width: 280px) {
-        img, a {
-            width: 100%;
-        }
-        a {
-            padding-left: 0;
-            padding-top: 0.5rem;
-        }
-    }
-    > ul,
-    > ol {
-         margin-bottom: 0;
+        vertical-align: top;
+        margin-bottom: 1rem;
+        padding: 2%;
     }
 }
-
 
 
 /**
@@ -123,6 +125,7 @@ h1 {
 }
 h2 {
     font-style: italic;
+    margin-bottom: 2rem;
 }
 
 
@@ -140,7 +143,7 @@ a {
     }
 
     &:hover {
-        background-color: transparentize($brand-color, 0.95);
+        background-color: transparentize($brand-color, 0.9);
     }
 }
 
