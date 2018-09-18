@@ -28,7 +28,7 @@ stories:
 {% for story in page.stories %}
 
 <a class="story" href="{{story.url}}">
-  <img src="img/{{story.img}}"/>
+  <div class="img" style="background-image:url('img/{{story.img}}')"></div>
   <p class="hed">{{story.hed}}</p>
 </a>
 
