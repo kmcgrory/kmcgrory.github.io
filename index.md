@@ -2,6 +2,9 @@
 layout: default
 
 stories:
+- hed: 'A baby left All Children’s with a needle in her heart'
+  url: 'http://www.tampabay.com/investigations/2018/04/20/a-baby-left-all-childrens-with-a-needle-in-her-heart/'
+  img: 'ach.jpg'
 - hed: 'Hellfire from above: Tampa Electric knew the procedure was dangerous. It sent workers in anyway.'
   url: 'http://www.tampabay.com/projects/2017/investigations/tampa-electric/big-bend-hellfire-from-above/'
   img: 'hellfire.jpg'
