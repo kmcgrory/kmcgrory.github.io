@@ -8,21 +8,25 @@ stories:
 - hed: 'Hellfire from above: Tampa Electric knew the procedure was dangerous. It sent workers in anyway.'
   url: 'http://www.tampabay.com/projects/2017/investigations/tampa-electric/big-bend-hellfire-from-above/'
   img: 'hellfire.jpg'
+  class: half
 - hed: 'Tampa Electric accounts for nearly half of Florida power plant deaths'
   url: 'http://www.tampabay.com/news/publicsafety/teco-accounts-for-nearly-half-of-florida-power-plant-deaths-data-shows/2329687'
   img: 'teco.jpg'
+  class: half
 - hed: 'In Harm’s Way: Gun injuries and deaths among Florida kids have spiked. One child is shot every 17 hours.'
   url: 'http://www.tampabay.com/projects/2017/special-report/florida-guns-children-deaths-harms-way/'
   img: 'harms.jpg'
 - hed: 'Worthy of Survival: Angel Santiago survived the massacre at the Pulse nightclub. To feel worthy of survival, he would need to make something of his life.'
   url: 'http://www.tampabay.com/projects/2016/features/pulse-shooting-survivor-angel-santiago-recovery/'
   img: 'pulse.jpg'
+  class: big
 - hed: 'Criticized for HIV spike, Florida takes hundreds of cases off the books'
   url: 'http://www.tampabay.com/news/health/criticized-for-hiv-spike-florida-takes-hundreds-of-cases-off-the-books/2270876'
   img: 'hiv.jpg'
 - hed: 'Field of Dakota Dreams: A group of football players from Miami ventured to rural North Dakota in pursuit of a college education — and a new life.'
   url: 'http://media.miamiherald.com/static/media/projects/2013/field-of-dakota-dreams/'
   img: 'dakota.jpg'
+  class: medium
 ---
 
 ## Selected work
@@ -30,7 +34,7 @@ stories:
 <div class="selected">
 {% for story in page.stories %}
 
-<a class="story" href="{{story.url}}">
+<a class="story{% if story.class %} {{story.class}}{% endif %}" href="{{story.url}}">
   <div class="img" style="background-image:url('img/{{story.img}}')"></div>
   <p class="hed">{{story.hed}}</p>
 </a>

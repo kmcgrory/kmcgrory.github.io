@@ -128,7 +128,7 @@ div.selected {
     a.story {
         display: inline-block;
         color: #333;
-        width: 45%;
+        width: 50%;
         border-bottom: none;
         vertical-align: top;
         margin-bottom: 1rem;
@@ -151,14 +151,18 @@ div.selected {
             }
         }
 
-        &:nth-child(4) {
+        &.half {
+            width: 45%;
+        }
+
+        &.big {
             width: 75%;
             .img {
                 padding-bottom: 60%;
             }
         }
 
-        &:nth-child(6) {
+        &.medium {
             width: 60%;
             .img {
                 padding-bottom: 50%;
