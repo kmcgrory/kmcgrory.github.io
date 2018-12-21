@@ -2,6 +2,9 @@
 layout: default
 
 stories:
+- hed: 'Heartbroken: Johns Hopkins promised to elevate All Children’s Heart Institute. Then patients started to die at an alarming rate.'
+  url: 'http://www.tampabay.com/projects/2018/investigations/heartbroken/all-childrens-heart-institute/'
+  img: 'leslie.jpg'
 - hed: 'A baby left All Children’s with a needle in her heart'
   url: 'http://www.tampabay.com/investigations/2018/04/20/a-baby-left-all-childrens-with-a-needle-in-her-heart/'
   img: 'ach.jpg'
