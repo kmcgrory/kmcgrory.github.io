@@ -24,13 +24,6 @@ stories:
   url: 'http://www.tampabay.com/projects/2016/features/pulse-shooting-survivor-angel-santiago-recovery/'
   img: 'pulse.jpg'
   class: big
-- hed: 'Criticized for HIV spike, Florida takes hundreds of cases off the books'
-  url: 'http://www.tampabay.com/news/health/criticized-for-hiv-spike-florida-takes-hundreds-of-cases-off-the-books/2270876'
-  img: 'hiv.jpg'
-- hed: 'Field of Dakota Dreams: A group of football players from Miami ventured to rural North Dakota in pursuit of a college education — and a new life.'
-  url: 'http://media.miamiherald.com/static/media/projects/2013/field-of-dakota-dreams/'
-  img: 'dakota.jpg'
-  class: medium
 ---
 
 ## Selected work
@@ -52,9 +45,9 @@ stories:
 
 <img class="right" src="img/mcgrory.jpg"/>
 
-Kathleen McGrory is a reporter on the [Tampa Bay Times](http://tampabay.com) investigations team. She was previously the newspaper’s health and medicine reporter. Before joining the Times in 2015, Kathleen spent seven years as a metro reporter for the [Miami Herald](http://miamiherald.com) and two years as a government reporter in the Tampa Bay Times/Miami Herald Tallahassee Bureau. 
+Kathleen McGrory is the deputy investigations editor and an investigative reporter at the [Tampa Bay Times](http://tampabay.com). Her series on a Johns Hopkins children’s hospital unearthed an alarming rate of patient fatalities and led to the resignation of six top hospital officials. It was a finalist for the 2019 Pulitzer Prize for Investigative Reporting and won the George Polk Award for Local Reporting and an IRE award.
 
-She speaks Spanish and holds degrees from the Columbia University Graduate School of Journalism and Hamilton College in Clinton, N.Y. 
+Before joining the Times in 2015, Kathleen spent seven years as a metro reporter for the [Miami Herald](http://miamiherald.com) and two years as a government reporter in the Tampa Bay Times/Miami Herald Tallahassee Bureau. She speaks Spanish and holds degrees from the Columbia University Graduate School of Journalism and Hamilton College in Clinton, N.Y. 
 
 Email her at [kmcgrory@tampabay.com](mailto:kmcgrory@tampabay.com). Follow her on Twitter at [@kmcgrory](http://twitter.com/kmcgrory).
 
