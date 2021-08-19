@@ -18,24 +18,14 @@ stories:
   url: 'http://www.tampabay.com/projects/2018/investigations/heartbroken/all-childrens-heart-institute/'
   img: 'leslie.jpg'
   class: big
-- hed: 'A baby left All Children’s with a needle in her heart'
-  url: 'http://www.tampabay.com/investigations/2018/04/20/a-baby-left-all-childrens-with-a-needle-in-her-heart/'
-  img: 'ach.jpg'
 - hed: 'Hellfire from above: Tampa Electric knew the procedure was dangerous. It sent workers in anyway.'
   url: 'http://www.tampabay.com/projects/2017/investigations/tampa-electric/big-bend-hellfire-from-above/'
   img: 'hellfire.jpg'
   class: half
-- hed: 'Tampa Electric accounts for nearly half of Florida power plant deaths'
-  url: 'http://www.tampabay.com/news/publicsafety/teco-accounts-for-nearly-half-of-florida-power-plant-deaths-data-shows/2329687'
-  img: 'teco.jpg'
-  class: half
-- hed: 'In Harm’s Way: Gun injuries and deaths among Florida kids have spiked. One child is shot every 17 hours.'
-  url: 'http://www.tampabay.com/projects/2017/special-report/florida-guns-children-deaths-harms-way/'
-  img: 'harms.jpg'
-- hed: 'Worthy of Survival: Angel Santiago survived the massacre at the Pulse nightclub. To feel worthy of survival, he would need to make something of his life.'
+- hed: 'Angel Santiago survived the massacre at the Pulse nightclub. To feel worthy of survival, he would need to make something of his life.'
   url: 'http://www.tampabay.com/projects/2016/features/pulse-shooting-survivor-angel-santiago-recovery/'
   img: 'pulse.jpg'
-  class: big
+  class: half
 ---
 
 ## Selected work
